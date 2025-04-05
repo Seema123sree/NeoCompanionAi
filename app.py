@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 app = Flask(name)
 
-Load the Hugging Face AI model for emotionally supportive responses
+#Load the Hugging Face AI model for emotionally supportive responses
 
 chatbot = pipeline("text-generation", model="microsoft/DialoGPT-medium")
 
