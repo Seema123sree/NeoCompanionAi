@@ -8,7 +8,7 @@ app = Flask(name)
 
 chatbot = pipeline("text-generation", model="microsoft/DialoGPT-medium")
 
-Temporary storage for user messages (this will reset if the server restarts)
+#Temporary storage for user messages (this will reset if the server restarts)
 
 user_messages = {}
 
